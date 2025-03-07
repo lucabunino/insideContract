@@ -1,0 +1,138 @@
+/* Font import */
+@font-face {
+  font-family: ABCSolar;
+  src:  url("/fonts/ABCSolar-Bold-Trial.woff2") format("woff2"),
+        url("/fonts/ABCSolar-Bold-Trial.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color:transparent;
+}
+* {
+  margin: 0;
+}
+:root{
+  --gutter: 1rem;
+  --transition: cubic-bezier(.77,0,.175,1) 300ms;
+  --headerHeight: 3.2rem;
+  --black: #000000;
+  --white: #FFFFFF;
+  --ivory: #F2F2F2;
+  --warm-gray: #DDDDD4;
+  --cool-gray: #A7AFAF;
+  --tan-brown: #C49E72;
+}
+.bg-white {background-color: var(--white);}
+.bg-ivory {background-color: var(--ivory);}
+.bg-warm-gray{background-color: var(--warm-gray);}
+.bg-cool-gray{background-color: var(--cool-gray);}
+.bg-tan-brown{background-color: var(--tan-brown);}
+
+html {
+  font-family: ABCSolar, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: clamp(20px, calc(10px + 0.9375vw), 30px);
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  background-color: var(--ivory);
+  scroll-behavior: smooth;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  white-space: pre-line;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+button {
+  -webkit-appearance: none;
+  border-radius: 0;
+  text-align: inherit;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+#root, #__next {
+  isolation: isolate;
+}
+a:-webkit-any-link {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:any-link {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:not(.logo):not(.project):not(.work):not(.work-list):hover {
+  opacity: .3;
+}
+a:-webkit-any-link.underline,
+a:any-link.underline,
+.underline {
+  text-decoration: underline;
+}
+.straight {
+  font-feature-settings: "ss16";
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.p-1 {
+  padding: .6rem .5rem;
+}
+.hidden {
+  display: none !important;
+}
+.desktop-only {
+  /* display: unset; */
+}
+.tablet-only {
+  /* display: unset; */
+}
+.mobile-only {
+  display: none;
+}
+.small-only {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  :root {
+    --gutter: 1rem;
+  }
+  .mobile-only {
+    display: unset;
+  }
+  .desktop-only {
+    display: none !important;
+  }
+  .p-1 {
+    padding: .7rem .5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .tablet-only {
+    display: none !important;
+  }
+  .small-only {
+    display: unset;
+  }
+}
