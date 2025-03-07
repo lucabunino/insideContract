@@ -21,7 +21,9 @@ let activeMaterials = $state([])
 $inspect(activeMaterials)
 
 function handleClickPayoff() {
-  scrollY = payoff.getBoundingClientRect().top + scrollY - (innerHeight - payoff.offsetHeight);
+  const headerHeight = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--headerHeight')) || 0;
+  const fontSize = parseFloat(getComputedStyle(document.documentElement).fontSize) || 0;
+  scrollY = payoff.getBoundingClientRect().top + scrollY - (innerHeight - payoff.offsetHeight) + headerHeight*fontSize;
 }
 
 function handleClickContact() {
@@ -500,9 +502,6 @@ section:not(#materials):not(#services) {
   position: relative;
   margin-top: -2.4rem;
   height: fit-content;
-}
-#contact button:hover {
-  opacity: .3;
 }
 @media screen and (max-width: 900px) {
   #contact form {

@@ -82,7 +82,8 @@ a:any-link {
   cursor: pointer;
   text-decoration: none;
 }
-a:not(.logo):not(.project):not(.work):not(.work-list):hover {
+a:not(.logo):not(.project):not(.work):not(.work-list):hover,
+button:hover {
   opacity: .3;
 }
 a:-webkit-any-link.underline,

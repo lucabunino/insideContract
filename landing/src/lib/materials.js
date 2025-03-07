@@ -2,7 +2,7 @@ export const materials = [
   {
     name: "Wood",
     image: "wood",
-    imageMobile: "woodMobile2",
+    imageMobile: "woodMobile",
     kinds: [ "Pannello multistrato", "Pannello listellare", "Pannello composito MDF", "Pannello composito truciolare", "Legno massello", "Corian", "HPL"
     ],
     works: [ "Sezionatura", "Placcaggio con legno tranciato", "Placcaggio con laminati plastici", "Bordatura pannelli con ABS", "Bordatura con tranciato", "Taglio folding", "Lavorazioni con centro di lavoro", "Tornitura", "Intarsio"
