@@ -5,6 +5,11 @@ import { enhance, applyAction } from '$app/forms';
 import { register } from 'swiper/element/bundle';
 register();
 
+// import { TinyPDF } from 'svelte-tiny-pdf';
+import Flipbook from '$lib/components/Flipbook.svelte';
+let showFlipbook = $state(false);
+const pdfUrl = "/download/insideContract-portfolio_2025.pdf";
+
 let isSubmitted = $state(false);
 let isSubmitting = $state(false);
 let isErrorous = $state(false);
@@ -18,7 +23,6 @@ let scrollY = $state(0);
 let contact = $state(null);
 let payoff = $state(null);
 let activeMaterials = $state([])
-$inspect(activeMaterials)
 
 function handleClickPayoff() {
   const headerHeight = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--headerHeight')) || 0;
@@ -68,9 +72,6 @@ const handleEnhance = ({ formElement, formData, action, cancel }) => {
     } else if (!result.data.success) {
       if (result.data.empty) {
         isEmpty = true
-        // if (result.data.emptyFields.includes('name')) {
-        //   isEmptyName = true
-        // }
         if (result.data.emptyFields.includes('email')) {
           isEmptyEmail = true
         }
@@ -102,6 +103,10 @@ $effect(() => {
 
 <svelte:window bind:innerHeight bind:innerWidth bind:scrollY onscroll={updateActiveMaterials}></svelte:window>
 
+{#if showFlipbook}
+  <Flipbook />
+{/if}
+
 <section id="hero" class="bg-ivory">
   <img class="left" src="/img/insideContract-all.webp" alt="">
   <div class="right p-1">
@@ -109,7 +114,7 @@ $effect(() => {
     <div class="ctas">
       <button onclick={() => handleClickPayoff()}>↓&#8194;Scopri di più</button>
       <button onclick={() => handleClickContact()}>↓&#8194;Richiedi informazioni</button>
-      <a href="/download/insideContract-portfolio_2025.pdf">↓&#8194;Scarica il portfolio 2025</a>
+      <button onclick={() => showFlipbook = true}>↓&#8194;Vedi il portfolio 2025</button>
     </div>
   </div>
 </section>
@@ -220,7 +225,7 @@ $effect(() => {
 </section>
 
 <section id="download" class="bg-cool-gray">
-  <a href="/download/insideContract-portfolio_2025.pdf" target="_blank" rel="noopener noreferrer"><p>↓ Download ↓</p><p>I–C Portfolio 2025</p></a>
+  <a href={pdfUrl} target="_blank" rel="noopener noreferrer"><p>↓ Download ↓</p><p>I–C Portfolio 2025</p></a>
 </section>
 
 <Footer/>
