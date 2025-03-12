@@ -137,5 +137,6 @@ onMount(() => {
 .page {
   width: 20vw;
   height: auto;
+  cursor: pointer;
 }
 </style>
