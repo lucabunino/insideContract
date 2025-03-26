@@ -16,7 +16,7 @@
   margin: 0;
 }
 :root{
-  --gutter: 1rem;
+  --gutter: 2rem;
   --transition: cubic-bezier(.77,0,.175,1) 300ms;
   --headerHeight: 3.7rem;
   --black: #000000;
@@ -116,9 +116,6 @@ a:any-link.underline,
   display: none;
 }
 @media screen and (max-width: 900px) {
-  :root {
-    --gutter: 1rem;
-  }
   .mobile-only {
     display: unset;
   }
@@ -126,7 +123,7 @@ a:any-link.underline,
     display: none !important;
   }
   .p-1 {
-    padding: .7rem .5rem;
+    padding: 1.05rem .75rem;
   }
 }
 @media screen and (max-width: 600px) {
