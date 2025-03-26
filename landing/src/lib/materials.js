@@ -12,27 +12,27 @@ export const materials = [
     name: "Glass",
     image: "glass",
     imageMobile: "glassMobile",
-    kinds: [ "Pannello multistrato", "Pannello listellare", "Pannello composito MDF", "Pannello composito truciolare", "Legno massello", "Corian", "HPL"
+    kinds: [ "Decorativo", "Di sicurezza"
     ],
-    works: [ "Sezionatura", "Placcaggio con legno tranciato", "Placcaggio con laminati plastici", "Bordatura pannelli con ABS", "Bordatura con tranciato", "Taglio folding", "Lavorazioni con centro di lavoro", "Tornitura", "Intarsio"
+    works: [ "Satinatura", "Taglio", "Incollaggio a raggi UV"
     ]
   },
   {
     name: "Stone",
     image: "stone",
     imageMobile: "stoneMobile",
-    kinds: [ "Pannello multistrato", "Pannello listellare", "Pannello composito MDF", "Pannello composito truciolare", "Legno massello", "Corian", "HPL"
+    kinds: [ "Marmo", "Granito", "Onici", "Pietre calcare", "Legno massello", "Corian", "HPL"
     ],
-    works: [ "Sezionatura", "Placcaggio con legno tranciato", "Placcaggio con laminati plastici", "Bordatura pannelli con ABS", "Bordatura con tranciato", "Taglio folding", "Lavorazioni con centro di lavoro", "Tornitura", "Intarsio"
+    works: [ "Taglio", "Satinatura lastre", "Lucidatura lastre", "Incollaggio elementi", "Incollaggio marmi traslucidi su vetro", "Alleggirimento marmi", "Lavorazioni marmo con quinto asse"
     ]
   },
   {
     name: "Metal",
     image: "metal",
     imageMobile: "metalMobile",
-    kinds: [ "Pannello multistrato", "Pannello listellare", "Pannello composito MDF", "Pannello composito truciolare", "Legno massello", "Corian", "HPL"
+    kinds: [ "Acciaio inox 304", "Acciaio inox 316", "Ferro", "Alluminio", "Ottone", "Rame"
     ],
-    works: [ "Sezionatura", "Placcaggio con legno tranciato", "Placcaggio con laminati plastici", "Bordatura pannelli con ABS", "Bordatura con tranciato", "Taglio folding", "Lavorazioni con centro di lavoro", "Tornitura", "Intarsio"
+    works: [ "Taglio lamiere laser", "Piegatura Lamiera", "Piegatura lamiere e folding", "Saldatura TIG", "Saldatura ossiacetilenica", "Polimentatura metalli", "Lucidatura metalli", "Satinatura metalli", "Trattamenti galvanici"
     ]
   }
 ];

@@ -23,6 +23,9 @@ header {
   top: 0;
   z-index: 2;
 }
+.logo {
+  font-size: 1.5rem;
+}
 main {
   margin-top: var(--headerHeight);
 }
