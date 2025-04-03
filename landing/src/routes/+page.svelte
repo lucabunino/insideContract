@@ -506,7 +506,7 @@ section:not(#materials):not(#services) {
 }
 #contact button {
   position: relative;
-  margin-top: -2.4rem;
+  margin-top: -3rem;
   height: fit-content;
 }
 @media screen and (max-width: 900px) {
@@ -525,35 +525,6 @@ section:not(#materials):not(#services) {
   }
   #contact .inputs {
     gap: .7rem;
-  }
-  #contact input,
-  #contact textarea {
-    border-radius: 5px;
-    border: none;
-  }
-  #contact input::placeholder,
-  #contact textarea::placeholder {
-    color: var(--black);
-    opacity: 1;
-  }
-  #contact input:focus,
-  #contact textarea:focus {
-    outline: 2px solid var(--black);
-  }
-  #contact textarea {
-    resize: none;
-    border-radius: 5px;
-    border: none;
-    text-indent: 0;
-    padding-bottom: 2.4rem;
-  }
-  #contact button {
-    position: relative;
-    margin-top: -2.4rem;
-    height: fit-content;
-  }
-  #contact button:hover {
-    opacity: .3;
   }
 }
 
