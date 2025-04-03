@@ -114,7 +114,8 @@ $effect(() => {
     <div class="ctas">
       <button onclick={() => handleClickPayoff()}>↓&#8194;Scopri di più</button>
       <button onclick={() => handleClickContact()}>↓&#8194;Richiedi informazioni</button>
-      <button onclick={() => showFlipbook = true}>↓&#8194;Vedi il portfolio 2025</button>
+      <!-- <a href="ISSUU">↓&#8194;Vedi il portfolio 2025</a> -->
+      <!-- <button onclick={() => showFlipbook = true}>↓&#8194;Vedi il portfolio 2025</button> -->
     </div>
   </div>
 </section>
@@ -224,9 +225,9 @@ $effect(() => {
   </form>
 </section>
 
-<section id="download" class="bg-cool-gray">
+<!-- <section id="download" class="bg-cool-gray">
   <a href={pdfUrl} target="_blank" rel="noopener noreferrer"><p>↓ Download ↓</p><p>I–C Portfolio 2025</p></a>
-</section>
+</section> -->
 
 <Footer/>
 
@@ -429,13 +430,13 @@ section:not(#materials):not(#services) {
   }
   #materials .material {
     height: auto;
-    min-height: 80vh;
+    min-height: 70vh;
     max-height: calc(100vh - var(--headerHeight));
     overflow: hidden;
   }
   #materials .material img {
     display: block;
-    min-height: 80vh;
+    min-height: 70vh;
   }
   #materials .material:hover img {
     opacity: 1;

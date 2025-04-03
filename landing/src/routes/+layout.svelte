@@ -1,7 +1,27 @@
 <script>
 import "../app.css";
 let { children } = $props()
+
+// Seo
+const seoTitle = "Inside Contract"
+const seoDescription = "Description" // Todo
+const seoUrl = "canonicUrl" // Todo
+const seoImg = "/img/insideContract-all.webp"
 </script>
+
+<svelte:head>
+  <title>{seoTitle}</title>
+  <meta name="description" content={seoDescription}>
+  <link rel="canonical" href={seoUrl}>
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+  <meta property="og:title" content={seoTitle}>
+  <meta property="og:description" content={seoDescription}>
+  <meta property="og:image" content={seoImg}>
+  <meta property="og:url" content={seoUrl}>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content={seoTitle}>
+</svelte:head>
 
 <header>
   <h1><a class="logo" href="/"><span class="straight">InsideContr</span>a<span class="straight">ct</span></a></h1>

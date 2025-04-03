@@ -44,7 +44,7 @@ export const actions = {
       
       const mail = {
         from: EMAIL,
-        to: "hello@lucabunino.com",
+        to: "info@insidecontract.it",
         subject: `insidecontract.com | Messaggio da ${email}`,
         text: body,
         html: html,
