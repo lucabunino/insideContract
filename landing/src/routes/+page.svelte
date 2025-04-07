@@ -132,9 +132,9 @@ $effect(() => {
     <h3 class="service desktop-only"><span>③</span>Furnish</h3>
   </div>
   <div class="description p-1 desktop-only">
-    <p>I–C supporta architetti, aziende e privati nell'esecuzione dei progetti più esigenti. Allineandosi alla visione e alle aspettative condivise dalla committenza, I-C lavora nel rispetto dei vincoli posti dal capitolato e dalle tempistiche di consegna, rimanendo in ascolto delle richieste che emergono durante tutte le fasi del cantiere.</p>
-    <p>I–C mette la qualità al centro di ogni tappa del progetto. Grazie all'expertise consolidata dei propri reparti produttivi, I-C orienta e combina lavorazioni artigianali e di alta tecnologia, offrendo un riscontro cosbg-tante sulle opzioni disponibili ed indirizzando le metodologie alle necessità di ogni realizzazione.</p>
-    <p>I–C è anche una rete consolidata di fornitori specializzati in grado di rispondere alle richieste più specifiche e di nicchia. Seguendo un approccio sartoriale, I-C fa appello ai migliori professionisti di settore per trasformare la cura di ogni dettaglio in una soluzione integrata, capace di restituire bellezza nel tempo.</p>
+    <p>I–C supporta architetti, aziende e privati nell'esecuzione dei progetti più esigenti. Allineandosi alla visione e alle aspettative condivise dalla committenza, I–C lavora nel rispetto dei vincoli posti dal capitolato e dalle tempistiche di consegna, rimanendo in ascolto delle richieste che emergono durante tutte le fasi del cantiere.</p>
+    <p>I–C mette la qualità al centro di ogni tappa del progetto. Grazie all'expertise consolidata dei propri reparti produttivi, I–C orienta e combina lavorazioni artigianali e di alta tecnologia, offrendo un riscontro cosbg-tante sulle opzioni disponibili ed indirizzando le metodologie alle necessità di ogni realizzazione.</p>
+    <p>I–C è anche una rete consolidata di fornitori specializzati in grado di rispondere alle richieste più specifiche e di nicchia. Seguendo un approccio sartoriale, I–C fa appello ai migliori professionisti di settore per trasformare la cura di ogni dettaglio in una soluzione integrata, capace di restituire bellezza nel tempo.</p>
   </div>
   <swiper-container
   class="mobile-only"
@@ -147,15 +147,15 @@ $effect(() => {
   >
     <swiper-slide>
       <h3 class="service"><span>①</span>Partner</h3>
-      <p>I-C supporta architetti, aziende e privati nell'esecuzione dei progetti più esigenti. Allineandosi alla visione e alle aspettative condivise dalla committenza, I-C lavora nel rispetto dei vincoli posti dal capitolato e dalle tempistiche di consegna, rimanendo in ascolto delle richieste che emergono durante tutte le fasi del cantiere.</p>
+      <p>I–C supporta architetti, aziende e privati nell'esecuzione dei progetti più esigenti. Allineandosi alla visione e alle aspettative condivise dalla committenza, I–C lavora nel rispetto dei vincoli posti dal capitolato e dalle tempistiche di consegna, rimanendo in ascolto delle richieste che emergono durante tutte le fasi del cantiere.</p>
     </swiper-slide>
     <swiper-slide>
       <h3 class="service"><span>②</span>Develop</h3>
-      <p>I-C mette la qualità al centro di ogni tappa del progetto. Grazie all'expertise consolidata dei propri reparti produttivi, I-C orienta e combina lavorazioni artigianali e di alta tecnologia, offrendo un riscontro cosbg-tante sulle opzioni disponibili ed indirizzando le metodologie alle necessità di ogni realizzazione.</p>
+      <p>I–C mette la qualità al centro di ogni tappa del progetto. Grazie all'expertise consolidata dei propri reparti produttivi, I–C orienta e combina lavorazioni artigianali e di alta tecnologia, offrendo un riscontro cosbg-tante sulle opzioni disponibili ed indirizzando le metodologie alle necessità di ogni realizzazione.</p>
     </swiper-slide>
     <swiper-slide>
       <h3 class="service"><span>③</span>Furnish</h3>
-      <p>I-C è anche una rete consolidata di fornitori specializzati in grado di rispondere alle richieste più specifiche e di nicchia. Seguendo un approccio sartoriale, I-C fa appello ai migliori professionisti di settore per trasformare la cura di ogni dettaglio in una soluzione integrata, capace di restituire bellezza nel tempo.</p>
+      <p>I–C è anche una rete consolidata di fornitori specializzati in grado di rispondere alle richieste più specifiche e di nicchia. Seguendo un approccio sartoriale, I–C fa appello ai migliori professionisti di settore per trasformare la cura di ogni dettaglio in una soluzione integrata, capace di restituire bellezza nel tempo.</p>
     </swiper-slide>
   </swiper-container>
 </section>
