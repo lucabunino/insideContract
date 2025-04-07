@@ -110,7 +110,7 @@ $effect(() => {
 <section id="hero" class="bg-ivory">
   <img class="left" src="/img/insideContract-all.webp" alt="">
   <div class="right p-1">
-    <h2>I—C è un’azienda specializzata nella realizzazione di progetti di interior contract. Fondata negli anni ’80 in Toscana, un territorio di eccellenza artigianale da sempre sensibile alla qualità atmosferica dello spazio, è impegnata nella produzione di arredi e soluzioni su misura in ambito residenziale, hospitality e retail. </h2>
+    <h2>I–C è un’azienda specializzata nella realizzazione di progetti di interior contract. Fondata negli anni ’80 in Toscana, un territorio di eccellenza artigianale da sempre sensibile alla qualità atmosferica dello spazio, è impegnata nella produzione di arredi e soluzioni su misura in ambito residenziale, hospitality e retail. </h2>
     <div class="ctas">
       <button onclick={() => handleClickPayoff()}>↓&#8194;Scopri di più</button>
       <button onclick={() => handleClickContact()}>↓&#8194;Richiedi informazioni</button>
