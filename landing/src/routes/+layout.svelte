@@ -4,8 +4,8 @@ let { children } = $props()
 
 // Seo
 const seoTitle = "Inside Contract"
-const seoDescription = "Description" // Todo
-const seoUrl = "canonicUrl" // Todo
+const seoDescription = "I–C è un’azienda specializzata nella realizzazione di progetti di interior contract." // Todo
+const seoUrl = "https://www.insidecontract.it/" // Todo
 const seoImg = "/img/insideContract-all.webp"
 </script>
 

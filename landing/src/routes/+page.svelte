@@ -40,7 +40,7 @@ function handleClickContact() {
 function updateActiveMaterials() {
   const headerHeight = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--headerHeight')) || 0;
   const fontSize = parseFloat(getComputedStyle(document.documentElement).fontSize) || 0;
-  const threshold = headerHeight * fontSize;
+  const threshold = headerHeight * fontSize + 100;
 
   const materialElements = document.querySelectorAll(".material");
   
@@ -402,6 +402,7 @@ section:not(#materials):not(#services) {
   flex-wrap: wrap;
   align-content: space-between;
   height: 100%;
+  width: 100%;
 }
 #materials ul {
   list-style: none;
